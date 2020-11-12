@@ -4,7 +4,7 @@
 
 ## Overview
 
-Tasked with helping Microsoft Corporation venture into the Film industry, this project analyzes the state of the filmindustry and looks at what kinds of films are most profitable and popular. 
+Tasked with helping Microsoft Corporation venture into the Film industry, this project analyzes the state of the filmindustry and looks at what kinds of films are most profitable and popular. The needs of a new movie studio is analyzed using exploratory data analysis to generate insights for a business stakeholder. All data is collected by using TMDB API and web scraping from IMDB website.  
 
 A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
 
