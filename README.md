@@ -1,64 +1,88 @@
-# Phase 1 Project
+# Windows-Movie Maker
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+**Authors**: Ning Chen, Joe Marx
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+## Overview
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+Tasked with helping Microsoft Corporation venture into the Film industry, this project analyzes the state of the filmindustry and looks at what kinds of films are most profitable and popular. 
 
-## Project Overview
+A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+## Business Problem
 
-### Business Problem
+As the tech industry continues to evolve and mature, companies are expanding the scope of services they offer. To stay competitive with peer companies such as Amazon, Apple, and Google, Microsoft can make original video content to offer itsmassive customer-base. Microsoft faces a number of obstacles to entering the industry—addressed in this project is the fact that Microsoft has no record producing studio films to base their business decisions from. Doing so could help open a new stream of revenue, widen the Microsoft's brand, and  
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
 
-### The Data
+***
+Questions to consider:
+* What are the business's pain points related to this project?
+* How did you pick the data analysis question(s) that you did?
+* Why are these questions important from a business perspective?
+***
 
-In the folder `zippedData` are movie datasets from:
+## Data
 
-* Box Office Mojo
-* IMDB
-* Rotten Tomatoes
-* TheMovieDB.org
+Robust movie databases, such as the *International Movie Database* (IMDB) and *The Movie Database* keep records ofmost movie's produced and contain data on a movie's creative team as well as financial information on the movies. These two databases were the source for this project's data. The movie's sampled were randomly selected through *TMDB's* "discover API and by supplementing with a set of over 40,000 movies produced in the last five years. This project focuses mainly on return on investment using budget and global revenue data.
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+***
+Questions to consider:
+* Where did the data come from, and how do they relate to the data analysis questions?
+* What do the data represent? Who is in the sample and what variables are included?
+* What is the target variable?
+* What are the properties of the variables you intend to use?
+***
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+## Methods
 
-## Deliverables
+Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
 
-There are three deliverables for this project:
+***
+Questions to consider:
+* How did you prepare, analyze or model the data?
+* Why is this approach appropriate given the data and the business problem?
+***
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+## Results
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+Through
 
-### Key Points
+***
+Questions to consider:
+* How do you interpret the results?
+* How confident are you that your results would generalize beyond the data you have?
+***
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+Here is an example of how to embed images from your sub-folder:
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+### Visual 1
+![graph1](./images/viz1.png)
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+## Conclusions
 
-## Getting Started
+We make the recommendation to Microsoft to consider making movies matching the [] genre. There is a trend of higher revenue per dollar spent in this category and so assuming profit maximization as the objective of this venutre, this is the safest choice from a business perspective. Please note, the scope of this project is limited only to the quantifiable data on movie production and doesn't attempt to look at artistic merit of a movie. This project also only looked at genre!!!!!!! as an input, and didn't include parameters such as artistic and marketing talent attached to movies. It will be challenging to disrupt this industry as a newcomer, especially one with historically high competition, and looking at what is successful among production companies that are already successful, may not offer the most useful insights in how to most effectively enter the market. It could prove more valuable to look at what other companies have done to make succssful sojourns into the industry. 
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+***
+Questions to consider:
+* What would you recommend the business do as a result of this work?
+* What are some reasons why your analysis might not fully solve the business problem?
+* What else could you do in the future to improve this project?
+***
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+## For More Information
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-## Project Submission and Review
+For any additional questions, please contact **Joe Marx—jmarx@hash.fyi, Ning Chen—email**
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+## Repository Structure
 
-## Summary
+Describe the structure of your repository and its contents, for example:
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+```
+├── README.md                           <- The top-level README for reviewers of this project
+├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
+```
