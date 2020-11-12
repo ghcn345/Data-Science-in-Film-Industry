@@ -73,7 +73,7 @@ Questions to consider:
 
 Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact **Joe Marx—jmarx@hash.fyi, Ning Chen—email**
+For any additional questions, please contact **Joe Marx—jmarx@hash.fyi, Ning Chen—chen.ning345@gmail.com**
 
 ## Repository Structure
 
