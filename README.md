@@ -10,7 +10,7 @@ A one-paragraph overview of the project, including the business problem, data, m
 
 ## Business Problem
 
-As the tech industry continues to evolve and mature, companies are expanding the scope of services they offer. To stay competitive with peer companies such as Amazon, Apple, and Google, Microsoft can make original video content to offer itsmassive customer-base. Microsoft faces a number of obstacles to entering the industry—addressed in this project is the fact that Microsoft has no record producing studio films to base their business decisions from. Doing so could help open a new stream of revenue, widen the Microsoft's brand, and  
+As the tech industry continues to evolve and mature, companies are expanding the scope of services they offer. To stay competitive with peer companies such as Amazon, Apple, and Google, Microsoft can make original video content to offer itsmassive customer-base. Microsoft faces a number of obstacles to entering the industry—addressed in this project is the fact that Microsoft has no record producing studio films to base their business decisions from.
 
 Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
 
