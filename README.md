@@ -40,7 +40,7 @@ We make the recommendation to Microsoft to consider making Animation, Family, or
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](phase-1-project-API-web_scraping/project-phase1.ipynb) or our [presentation](phase-1-project-API-web_scraping/presntation.pdf).
+Please review our full analysis in [our Jupyter Notebook](https://github.com/ghcn345/phase-1-project-API-web_scraping/blob/main/project_phase1.ipynb) or our [presentation](https://github.com/ghcn345/phase-1-project-API-web_scraping/blob/main/presentation.pdf).
 
 For any additional questions, please contact **Joe Marx—jmarx@hash.fyi, Ning Chen—chen.ning345@gmail.com**
 
