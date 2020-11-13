@@ -10,7 +10,7 @@ A one-paragraph overview of the project, including the business problem, data, m
 
 ## Business Problem
 
-As the tech industry continues to evolve and mature, companies are expanding the scope of services they offer. To stay competitive with peer companies such as Amazon, Apple, and Google, Microsoft can make original video content to offer itsmassive customer-base. Microsoft faces a number of obstacles to entering the industry—addressed in this project is the fact that Microsoft has no record producing studio films to base their business decisions from.
+As the tech industry continues to evolve and mature, companies are expanding the scope of services they offer. To stay competitive with peer companies such as Amazon, Apple, and Google, Microsoft can make original video content to offer its massive customer-base. To enter the industry it would be valuable to have a more than superficial snapshot of the industry as it stands. It would be helpful to know what kinds of movies are most popular to produce, what kinds of movies are the most profitable, and what movies receive the highest acclaim from audiences and critics? This will help Microsoft know what their peers believe are the best types of movies to produce and will help them decide what types of movies will make them the most for their shareholders and what will help them be taken seriously in the industry. 
 
 Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
 
@@ -35,7 +35,7 @@ Questions to consider:
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+After cleaning our data, we applied basic descriptive statistics by calculating the mean and median budget, revenue, and profit for various years and various genres.
 
 ***
 Questions to consider:
@@ -45,7 +45,7 @@ Questions to consider:
 
 ## Results
 
-Through
+The movie industry is very negatively impacted by COVID-19 in 2020, as evidenced by this year's profits compared to previous years. Comedy, Thiller, and Action movies are dominant in the mainstream movie market. Animation, Fantasy, and Science Fiction movies however, are the most profitable. Most movies are rated around 6-7 out of 10. Documentary, History and War movies are rated above the median.
 
 ***
 Questions to consider:
@@ -56,7 +56,7 @@ Questions to consider:
 Here is an example of how to embed images from your sub-folder:
 
 ### Visual 1
-![graph1](./images/viz1.png)
+![graph1](/images/box.png)
 
 ## Conclusions
 
@@ -81,8 +81,11 @@ Describe the structure of your repository and its contents, for example:
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── dsc-phase1-project                  <- Narrative documentation of analysis in Jupyter notebook
+├── Project_Presentation.pdf            <- PDF version of project presentation
+├──
+├──
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
+
 ```
