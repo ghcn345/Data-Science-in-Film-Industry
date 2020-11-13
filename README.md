@@ -1,3 +1,5 @@
+![marquee](/images/marquee.jpg)
+
 # Windows-Movie Maker
 
 **Authors**: Ning Chen, Joe Marx
