@@ -6,36 +6,21 @@
 
 Tasked with helping Microsoft Corporation venture into the Film industry, this project analyzes the state of the filmindustry and looks at what kinds of films are most profitable and popular. The needs of a new movie studio is analyzed using exploratory data analysis to generate insights for a business stakeholder. All data is collected by using TMDB API and web scraping from IMDB website.  
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
 
 ## Business Problem
 
 As the tech industry continues to evolve and mature, companies are expanding the scope of services they offer. To stay competitive with peer companies such as Amazon, Apple, and Google, Microsoft can make original video content to offer its massive customer-base. To enter the industry it would be valuable to have a more than superficial snapshot of the industry as it stands. It would be helpful to know what kinds of movies are most popular to produce, what kinds of movies are the most profitable, and what movies receive the highest acclaim from audiences and critics? This will help Microsoft know what their peers believe are the best types of movies to produce and will help them decide what types of movies will make them the most for their shareholders and what will help them be taken seriously in the industry. 
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
-
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
+<img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" alt="TMDb logo" style="width:300px;height:200px;">
 
 ## Data
 
-Robust movie databases, such as the *International Movie Database* (IMDB) and *The Movie Database* keep records ofmost movie's produced and contain data on a movie's creative team as well as financial information on the movies. These two databases were the source for this project's data. The movie's sampled were randomly selected through *TMDB's* "discover API and by supplementing with a set of over 40,000 movies produced in the last five years. This project focuses mainly on return on investment using budget and global revenue data.
+Robust movie databases, such as the *International Movie Database* (IMDb) and *The Movie Database* provide troves of valuable information on movies released to the public. These two databases were the source for this project's data. 10,000 movies were sampled randomly through *TMDb's* "discover API and was combined with a set of over 40,000 movies produced in the last five years. Movies in this set with missing financial data was supplemented where possible through scraping IMDb's website. This project focuses on return on investment using budget and global revenue data and also explores how well movies are liked and how many movies of different types are produced.
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
 
 ## Methods
 
-After cleaning our data, we applied basic descriptive statistics by calculating the mean and median budget, revenue, and profit for various years and various genres.
+After cleansing our data (which proved a guargantuan task), we applied basic descriptive statistics by calculating the mean and median budget, revenue, and profit for various years and various genres. We looked at the average rating on a scale from 1-10 for movies of various categories, we calculated return on investment(ROI) for each film in our data set
 
 ***
 Questions to consider:
@@ -48,12 +33,6 @@ Questions to consider:
 The movie industry is very negatively impacted by COVID-19 in 2020, as evidenced by this year's profits compared to previous years. Comedy, Thiller, and Action movies are dominant in the mainstream movie market. Animation, Fantasy, and Science Fiction movies however, are the most profitable. Most movies are rated around 6-7 out of 10. Documentary, History and War movies are rated above the median.
 
 ***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
 
 ### Visual 1
 ![graph1](/images/box.png)
