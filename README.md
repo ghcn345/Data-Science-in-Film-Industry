@@ -11,7 +11,7 @@ Tasked with helping Microsoft Corporation venture into the Film industry, this p
 
 As the tech industry continues to evolve and mature, companies are expanding the scope of services they offer. To stay competitive with peer companies such as Amazon, Apple, and Google, Microsoft can make original video content to offer its massive customer-base. To enter the industry it would be valuable to have a more than superficial snapshot of the industry as it stands. It would be helpful to know what kinds of movies are most popular to produce, what kinds of movies are the most profitable, and what movies receive the highest acclaim from audiences and critics? This will help Microsoft know what their peers believe are the best types of movies to produce and will help them decide what types of movies will make them the most for their shareholders and what will help them be taken seriously in the industry. 
 
-<img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" alt="TMDb logo" style="width:300px;height:200px;">
+<img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" alt="TMDb logo" style="width:100px; height:100px;">
 
 ## Data
 
